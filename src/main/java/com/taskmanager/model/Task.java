@@ -7,8 +7,8 @@ public class Task {
     private UUID id;
     private String title;
     private String description;
-    private Enum priority;
-    private Enum status;
+    private Priority priority;
+    private Status status;
     private LocalDateTime dueDate;
 
     public UUID getId() {
@@ -35,19 +35,19 @@ public class Task {
         this.description = description;
     }
 
-    public Enum getPriority() {
+    public Priority getPriority() {
         return priority;
     }
 
-    public void setPriority(Enum priority) {
+    public void setPriority(Priority priority) {
         this.priority = priority;
     }
 
-    public Enum getStatus() {
+    public Status getStatus() {
         return status;
     }
 
-    public void setStatus(Enum status) {
+    public void setStatus(Status status) {
         this.status = status;
     }
 
